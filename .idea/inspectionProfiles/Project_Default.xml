@@ -1,0 +1,87 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myCustomPropertiesEnabled" value="true" />
+      <option name="myIgnoreVendorSpecificProperties" value="false" />
+      <option name="myCustomPropertiesList">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="clip-path" />
+            <item index="1" class="java.lang.String" itemvalue="font-color" />
+            <item index="2" class="java.lang.String" itemvalue="border-radius" />
+            <item index="3" class="java.lang.String" itemvalue="box-sizing" />
+            <item index="4" class="java.lang.String" itemvalue="transform" />
+            <item index="5" class="java.lang.String" itemvalue="font-smoothing" />
+            <item index="6" class="java.lang.String" itemvalue="animation-timeline" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="src" />
+            <item index="1" class="java.lang.String" itemvalue="href" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="25">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="Stylesheet--" />
+            <item index="7" class="java.lang.String" itemvalue="media" />
+            <item index="8" class="java.lang.String" itemvalue="special-header" />
+            <item index="9" class="java.lang.String" itemvalue="pre" />
+            <item index="10" class="java.lang.String" itemvalue="primary" />
+            <item index="11" class="java.lang.String" itemvalue="div" />
+            <item index="12" class="java.lang.String" itemvalue="li" />
+            <item index="13" class="java.lang.String" itemvalue="p" />
+            <item index="14" class="java.lang.String" itemvalue="h2" />
+            <item index="15" class="java.lang.String" itemvalue="form" />
+            <item index="16" class="java.lang.String" itemvalue="scrip" />
+            <item index="17" class="java.lang.String" itemvalue="ol" />
+            <item index="18" class="java.lang.String" itemvalue="a" />
+            <item index="19" class="java.lang.String" itemvalue="tbody" />
+            <item index="20" class="java.lang.String" itemvalue="td" />
+            <item index="21" class="java.lang.String" itemvalue="tr" />
+            <item index="22" class="java.lang.String" itemvalue="th" />
+            <item index="23" class="java.lang.String" itemvalue="head" />
+            <item index="24" class="java.lang.String" itemvalue="body" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="INFORMATION" enabled_by_default="true" editorAttributes="INFORMATION_ATTRIBUTES" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N801" />
+          <option value="N802" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tests.test_python.image.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
