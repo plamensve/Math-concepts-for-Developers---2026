@@ -1,7 +1,8 @@
 from collections import deque
+import re
 
 def encode(text):
-    d = deque(list(text.upper()))
+    d = deque(list(text))
     first_symb = d.popleft()
     result = []
 
@@ -23,4 +24,18 @@ def encode(text):
     return ''.join(f"{char}{count}" if count > 1 else char for char, count in result)
 
 
-print(encode('AABCCCDDAaAccchhhww'))
+def decode(text):
+    """
+    Decodes the text using run-length encoding
+    """
+    pattern = r"[A-Za-z]\d*"
+    matches = re.findall(pattern, text)
+    result = []
+
+    for i in matches:
+        result.append(i[0] * int(i[1:] if i[1:] else 1))
+
+    return ''.join(result)
+
+
+print(decode("A2BC3XCCDE4"))
